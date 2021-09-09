@@ -8,7 +8,7 @@ public void onEnable(){
   createTable(); # Damit erstellst du deine Table
 }
   
-# cretaeTable();
+# createTable();
 public static void createTable(){
   MySQL.Update("Deine MYSQL Tabeln eingeben die du für das Plugin benötigst")
 }
