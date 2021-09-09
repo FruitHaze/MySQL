@@ -13,8 +13,7 @@ public class MySQL {
 
         try{
             c = DriverManager.getConnection("jdbc:mysql://" + Var.host + ":" + Var.port + "/" + Var.db + "?autoReconnect=true",Var.user,Var.pw);
-            System.out.println("[MySQL]");
-            System.out.println("Das LobbySystem hat sich Verbunden");
+            System.out.println("[MySQL] connected.");
         } catch(SQLException e){
             System.out.println("[MySQL] Connection failed.");
             e.printStackTrace();
